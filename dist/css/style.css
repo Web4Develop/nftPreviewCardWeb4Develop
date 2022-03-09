@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background: #0d192b;
+  color: #8bacda;
+}
+
+hr {
+  margin: 1.5rem 2rem;
+}
+
+html {
+  font-size: 18px;
+  font-family: outfit;
+}
+
+.border,
+.previewImage {
+  border-radius: 5%;
+}
+
+.border {
+  position: relative;
+  background: #14253d;
+  text-align: left;
+  width: 20rem;
+  margin: 3rem auto;
+  padding-top: 0.1rem;
+}
+
+.previewLink:hover,
+.header:hover,
+.creditLink:hover {
+  color: #00fff7;
+}
+
+.previewLink:hover .previewHover,
+.header:hover .previewHover,
+.creditLink:hover .previewHover {
+  display: block;
+  background: rgba(0, 255, 247, 0.5);
+}
+
+.previewImage {
+  display: block;
+  width: 85%;
+  height: auto;
+  margin: 2rem auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.previewHover {
+  position: absolute;
+  top: 2.1rem;
+  border-radius: 5%;
+  left: 1.5rem;
+  padding: 7.2rem;
+  display: none;
+}
+
+.header {
+  margin: 0 2rem;
+  font-size: 1.1rem;
+}
+
+.text {
+  margin: 1.3rem 2rem;
+  font-weight: 300;
+  width: 18rem;
+}
+
+.line {
+  color: #00fff7;
+  margin: 0 0 0 2rem;
+}
+
+.daysLeft,
+.credit {
+  color: #8bacda;
+  font-weight: 300;
+}
+
+.daysLeft {
+  margin: 0 0 0 5rem;
+}
+
+.creditPicture {
+  width: 3rem;
+  margin: 0 1rem 1.5rem 2rem;
+  border: solid 1px white;
+  border-radius: 50%;
+}
+
+.credit {
+  position: relative;
+  bottom: 2.5rem;
+}
+/*# sourceMappingURL=style.css.map */

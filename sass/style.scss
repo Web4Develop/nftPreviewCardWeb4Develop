@@ -1,0 +1,114 @@
+$weight300: 300;
+$weight400: 400;
+$weight600: 600;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+body {
+  background: rgb(13, 25, 43);
+  color: rgb(139, 172, 218);
+}
+
+hr {
+  margin: 1.5rem 2rem;
+}
+
+html {
+  font-size: 18px;
+  font-family: outfit;
+}
+
+.border,
+.previewImage {
+  border-radius: 5%;
+}
+
+.border {
+  position: relative;
+  background: rgb(20, 37, 61);
+  text-align: left;
+  width: 20rem;
+  margin: 3rem auto;
+  padding-top: 0.1rem;
+  // position: relative;
+  // width: 35rem;
+  // border: solid 3px black;
+}
+
+.previewLink:hover,
+.header:hover,
+.creditLink:hover {
+  color: rgb(0, 255, 247);
+  .previewHover {
+    display: block;
+    background: rgba(0, 255, 247, 0.5);
+  }
+}
+
+.previewImage {
+  display: block;
+  width: 85%;
+  height: auto;
+  margin: 2rem auto;
+  object-fit: cover;
+}
+
+.previewHover {
+  position: absolute;
+  top: 2.1rem;
+  border-radius: 5%;
+  left: 1.5rem;
+  padding: 7.2rem;
+  display: none;
+}
+
+.header {
+  margin: 0 2rem;
+  font-size: 1.1rem;
+}
+
+.text {
+  margin: 1.3rem 2rem;
+  font-weight: $weight300;
+  width: 18rem;
+  // word-spacing: 0.3rem;
+  // font-size: 1.3rem;
+}
+
+.line {
+  color: rgb(0, 255, 247);
+  margin: 0 0 0 2rem;
+}
+
+.daysLeft,
+.credit {
+  color: rgb(139, 172, 218);
+  font-weight: $weight300;
+}
+
+.daysLeft {
+  margin: 0 0 0 5rem;
+}
+
+.creditPicture {
+  width: 3rem;
+  margin: 0 1rem 1.5rem 2rem;
+  border: solid 1px white;
+  border-radius: 50%;
+}
+
+.credit {
+  position: relative;
+  bottom: 2.5rem;
+  // margin: 2rem;
+  // left: 0.5rem;
+}
